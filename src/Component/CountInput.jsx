@@ -52,7 +52,7 @@ const CountInput = () => {
 
   }
 
-  //Mount agaa
+  //To Mount
   useEffect(()=>{
     let timer;
     if(start){
