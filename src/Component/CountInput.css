@@ -1,0 +1,65 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-box{
+  margin: 10px;
+}
+input {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 3px;
+
+}
+
+.start-button button{
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-left: 280px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.action {
+    margin-left: 20px;
+}
+
+.timer {
+    display: flex;
+    font-size: 100px;
+}
+
+.restart-button {
+    width: 100px;
+    height: 40px;
+    margin: 30px;
+    border: none;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.restart-button:hover{
+    background-color: #fff;
+    color: #000;
+}
